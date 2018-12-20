@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<document source="/Users/alexganose/dev/src/sphinx-automodule-example/docs/source/index.rst">
+	<section ids="example-package" names="example\ package">
+		<title>example package</title>
+		<section ids="module-example.function example-function-module" names="example.function\ module">
+			<title>example.function module</title>
+			<index entries="('single',\ 'example.function\ (module)',\ 'module-example.function',\ '',\ None)"/>
+			<index entries="('single',\ 'test_function()\ (in\ module\ example.function)',\ 'example.function.test_function',\ '',\ None)"/>
+			<desc desctype="function" domain="py" noindex="False" objtype="function">
+				<desc_signature class="" first="False" fullname="test_function" ids="example.function.test_function" module="example.function" names="example.function.test_function">
+					<desc_addname xml:space="preserve">example.function.</desc_addname>
+					<desc_name xml:space="preserve">test_function</desc_name>
+					<desc_parameterlist xml:space="preserve">
+						<desc_parameter xml:space="preserve">param_a</desc_parameter>
+						<desc_parameter xml:space="preserve">param_b</desc_parameter>
+					</desc_parameterlist>
+				</desc_signature>
+				<desc_content>
+					<paragraph>Test function docstring</paragraph>
+					<field_list>
+						<field>
+							<field_name>Parameters</field_name>
+							<field_body>
+								<bullet_list>
+									<list_item>
+										<paragraph>
+											<literal_strong refspecific="True">param_a</literal_strong>
+											 (
+											<pending_xref refdomain="py" refexplicit="False" refspecific="True" reftarget="int" reftype="class">
+												<literal_emphasis>int</literal_emphasis>
+											</pending_xref>
+											)
+											 – 
+											The first parameter.
+										</paragraph>
+									</list_item>
+									<list_item>
+										<paragraph>
+											<literal_strong refspecific="True">param_b</literal_strong>
+											 (
+											<pending_xref refdomain="py" refexplicit="False" refspecific="True" reftarget="int" reftype="class">
+												<literal_emphasis>int</literal_emphasis>
+											</pending_xref>
+											)
+											 – 
+											The second parameter.
+										</paragraph>
+									</list_item>
+								</bullet_list>
+							</field_body>
+						</field>
+						<field>
+							<field_name>Returns</field_name>
+							<field_body>
+								<paragraph>The return value.</paragraph>
+							</field_body>
+						</field>
+						<field>
+							<field_name>Return type</field_name>
+							<field_body>
+								<paragraph>
+									(
+									<pending_xref refdomain="py" refexplicit="False" refspecific="True" reftarget="str" reftype="class">str</pending_xref>
+									)
+								</paragraph>
+							</field_body>
+						</field>
+					</field_list>
+				</desc_content>
+			</desc>
+		</section>
+	</section>
+</document>
