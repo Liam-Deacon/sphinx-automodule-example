@@ -1,5 +1,5 @@
 # sphinx-automodule-example
-Example sphinx automodule example to improve sphinx-markdown-builder
+Example sphinx automodule example to improve sphinx-markdown-builder with Restructured Text table.
 
 ## Installation
 
