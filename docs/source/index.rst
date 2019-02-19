@@ -8,3 +8,18 @@ example.function module
     :members:
     :undoc-members:
     :show-inheritance:
+
+example ReST table
+-------------------
+
+The following Python packages are used for the example:
+
++----------------------------------------------------------------------+----------------------------+---------------------------------------------------------------------------+
+| Package                                                              | License                    | Notes                                                                     |
++======================================================================+============================+===========================================================================+
+| `NavPy == 1.0 <https://navpy.readthedocs.io/en/latest/>`_            | BSD                        | Used in :py:mod:`nats.utils.conversions.height` and                       |
+|                                                                      |                            | :py:mod:`nats.utils.conversions.coordinates`.                             |
++----------------------------------------------------------------------+----------------------------+---------------------------------------------------------------------------+
+| `aero-calc >= 0.13.2 <https://pypi.org/project/aero-calc/>`_         | BSD                        | Forked from `AeroCalc <https://kilohotel.com/python/aerocalc/>`_).        |
+|                                                                      |                            | Used in :py:mod:`nats.utils.conversions.speed`.                           |
++----------------------------------------------------------------------+----------------------------+---------------------------------------------------------------------------+
