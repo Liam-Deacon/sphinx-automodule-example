@@ -39,9 +39,12 @@ release = ''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'matplotlib.sphinxext.plot_directive',  # see plot.rst
+    'sphinx.ext.graphviz',  # see graphviz.rst
+    'sphinx.ext.todo',  # see todo.rst
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
-    'sphinx_markdown_builder'
+    'sphinx_markdown_builder',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
