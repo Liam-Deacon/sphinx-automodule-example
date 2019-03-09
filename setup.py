@@ -11,5 +11,6 @@ setup(
     license='MIT',
     keywords='',
     packages=find_packages(),
-    install_requires=['sphinx', 'sphinx-argparse', 'sphinx-markdown-builder'],
+    install_requires=['sphinx', 'sphinx-argparse',
+                      'sphinx-markdown-builder', 'matplotlib'],
     )
